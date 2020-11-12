@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:wght@700;300&display=swap");
 
-$background-color: rgb(242, 242, 242);
-$foreground-color: rgb(34, 34, 34);
-$hero-background-color: rgb(14, 16, 35);
-$nav-background-color: rgba(14, 16, 35, 0.95);
-$nav-color: rgb(221, 221, 221);
+$background-color: rgb(170, 202, 202);
+$foreground-color: rgb(0, 0, 0);
+$hero-background-color: rgb(0, 0, 0);
+$nav-background-color: rgb(170, 202, 201);
+$nav-color: rgba(0, 0, 0, 0.945);
 
-$accent-color: #a0143f;
+$accent-color: #000000;
 
 * {
   box-sizing: border-box;
@@ -75,7 +75,7 @@ section {
   }
 
   &.experience {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid rgb(0, 0, 0);
     article {
       display: flex;
       flex-direction: row;
@@ -99,7 +99,7 @@ section {
 
   &.footer {
     min-height: 30vh;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(0, 0, 0);
     color: $background-color;
 
     h1 {

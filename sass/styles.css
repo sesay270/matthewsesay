@@ -12,13 +12,13 @@ svg {
 }
 
 body {
-  background-color: #f2f2f2;
-  color: #222222;
+  background-color: #aacaca;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-  background-color: rgba(14, 16, 35, 0.95);
+  background-color: #aacac9;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -40,7 +40,7 @@ nav .container {
       -ms-flex-align: center;
           align-items: center;
   padding: 1rem 2rem;
-  color: #dddddd;
+  color: rgba(0, 0, 0, 0.945);
   max-width: 1920px;
   margin: auto;
 }
@@ -69,18 +69,18 @@ section {
 
 section.hero {
   min-height: 60vh;
-  background-color: #0e1023;
+  background-color: black;
 }
 
 section.hero h1 {
-  color: #dddddd;
+  color: white;
   line-height: 4rem;
   max-width: 440px;
   margin: 0;
 }
 
 section.experience {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid black;
 }
 
 section.experience article {
@@ -109,17 +109,17 @@ section.experience p {
 }
 
 section.projects {
-  background-color: #dddddd;
+  background-color: white;
 }
 
 section.footer {
   min-height: 30vh;
-  background-color: #020202;
-  color: #f2f2f2;
+  background-color: black;
+  color: #aacaca;
 }
 
 section.footer h1 {
-  color: #f2f2f2;
+  color: #aacaca;
 }
 
 .container {
@@ -175,7 +175,7 @@ h1 {
   font-size: 3.2rem;
   margin: 0 0 2rem 0;
   font-weight: 700;
-  color: #222222;
+  color: black;
 }
 
 h1.brand {
@@ -191,7 +191,7 @@ h2 {
   font-size: 2rem;
   margin: 0 0 2rem 0;
   font-weight: 300;
-  color: #222222;
+  color: black;
   text-align: center;
 }
 
@@ -200,7 +200,7 @@ h3 {
   font-size: 2rem;
   margin: 0 0 2rem 0;
   font-weight: 300;
-  color: #222222;
+  color: black;
 }
 
 h3.small {
@@ -218,8 +218,8 @@ button {
   display: -ms-flexbox;
   display: flex;
   padding: 0.6rem 1.4rem;
-  background-color: #891136;
-  color: #f2f2f2;
+  background-color: black;
+  color: #aacaca;
   border-radius: 3px;
   text-transform: uppercase;
   font-weight: bold;
@@ -235,7 +235,7 @@ button {
 }
 
 button:hover {
-  background-color: #a0143f;
+  background-color: #000000;
 }
 
 ul.skills {
@@ -256,8 +256,8 @@ ul.skills {
 
 ul.skills li {
   padding: 0.6rem 1.4rem;
-  background-color: #a0143f;
-  color: #f2f2f2;
+  background-color: #000000;
+  color: #aacaca;
   border-radius: 3px;
   text-transform: uppercase;
   font-weight: bold;
